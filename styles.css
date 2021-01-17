@@ -1,0 +1,94 @@
+.resume {
+    background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+  } 
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+  }
+ 
+  p {
+    line-height: 28px;
+    margin-bottom: 25px;
+  }
+
+  /* Profile Name */
+  .centered {
+    text-align: center;
+  }
+
+  /* desc class */
+  .desc {
+    padding-top: 50px;
+  }
+  .desc t {
+    color: #34495e;
+    font-weight: 700;   
+  }  
+  .desc more {
+    color: #95a5a6;
+  }
+  
+ /* About */
+  #intro {
+    background: #2c3e50;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+  }
+  #intro i {
+    color: white;
+    font-size: 20px;
+    padding-right: 8px;
+    vertical-align: middle;
+  }
+  
+  /* Contact */
+  #footwrap {
+    background: #2f2f2f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;   
+  }
+  #footwrap t {
+    font-weight: 700;
+  }
+  #footwrap i {
+    padding-right: 8px;
+    color: #1abc9c;
+  }
+
+  /* Skills */
+  #skills ul li{
+    color: #95a5a6;
+  }
+ 
+  /* copyrights */
+  #copyrights {
+    background: #222222;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+  }  
+  #copyrights p {
+    margin: 0 0 5px 0;
+  }
+
+  /* hr */
+
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid red;
+    margin: 1em 0;
+    padding: 0;
+  }
+ 
