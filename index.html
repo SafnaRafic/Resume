@@ -8,14 +8,39 @@
   <!-- Main Stylesheet File -->
   <link href="styles.css" rel="stylesheet">
   <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- Font Awesome File-->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 
 <body>
+
+  <!-- TopBar -->
+  <div id="section-topbar">
+    <div id="topbar-inner">
+      <div class="container">
+        <div class="row">
+
+          <ul id="nav" class="nav">
+            <li class="menu-item"><a class="smothscroll" href="#about" title="About"><i class="fa fa-user"></i></a></li>
+            <li class="menu-item"><a class="smothscroll" href="#resume" title="Resume"><i
+                  class="fa fa-file-text-o"></i></a></li>
+            <li class="menu-item"><a class="smothscroll" href="#work" title="Works"><i class="fa fa-briefcase"></i></a>
+            </li>
+            <li class="menu-item"><a class="smothscroll" href="#footwrap" title="Contact"><i
+                  class="fa fa-envelope"></i></a></li>
+          </ul>        
+
+          <div class="clear"></div>
+        </div>
+        <!-- closing row div -->
+      </div>
+      <!-- closing container div -->
+    </div>
+    <!-- closing topbar-inner div -->
+  </div>
 
   <!-- Profile Picture -->
   <div class="resume">
@@ -28,68 +53,74 @@
     </div>
 
     <!-- About -->
-    <div id="intro">
-      <div class="container body-content">
-        <div class="row">
+    <section id="about">
+      <div id="intro">
+        <div class="container body-content">
+          <div class="row">
 
-          <div class="col-lg-2 col-lg-offset-1">
-            <h5>ABOUT</h5>
+            <div class="col-lg-2 col-lg-offset-1">
+              <h5>ABOUT</h5>
+            </div>
+
+            <div class="col-lg-6">
+              <p>I'm web designer & front-end developer with 7 years of professional experience. I'm interested in all
+                kinds of visual communication, but my major focus is on designing web, mobile & tablet interfaces.</p>
+            </div>
+
           </div>
-
-          <div class="col-lg-6">
-            <p>I'm web designer & front-end developer with 7 years of professional experience. I'm interested in all
-              kinds of visual communication, but my major focus is on designing web, mobile & tablet interfaces.</p>
-          </div>
-
         </div>
       </div>
-    </div>
+
+    </section>
+
 
     <!-- Education  -->
-    <div class="container desc">
-      <div class="row">
+    <section id="resume">
+      <div class="container desc">
+        <div class="row">
 
-        <!-- heading-->
-        <div class="col-lg-2 col-lg-offset-1">
-          <h5>EDUCATION</h5>
-        </div>
+          <!-- heading-->
+          <div class="col-lg-2 col-lg-offset-1">
+            <h5>EDUCATION</h5>
+          </div>
 
-        <!-- Masters -->
-        <div class="col-lg-6">
-          <p>
-            <t>Master of Computer Application</t><br /> Anna University <br />
-            <i>3 Years Course</i>
-          </p>
-        </div>
+          <!-- Masters -->
+          <div class="col-lg-6">
+            <p>
+              <t>Master of Computer Application</t><br /> Anna University <br />
+              <i>3 Years Course</i>
+            </p>
+          </div>
 
-        <div class="col-lg-3">
-          <p>
-            July 2011
-          </p>
-        </div>
+          <div class="col-lg-3">
+            <p>
+              July 2011
+            </p>
+          </div>
 
-        <!-- Bachelors -->
-        <div class="col-lg-6 col-lg-offset-3">
-          <p>
-            <t>Bachelors of Computer Science</t><br /> PSG College of Technology <br />
-            <i>3 Years Course</i>
-          </p>
-        </div>
-        <div class="col-lg-3">
-          <p>
-            July 2008
-          </p>
-        </div>
+          <!-- Bachelors -->
+          <div class="col-lg-6 col-lg-offset-3">
+            <p>
+              <t>Bachelors of Computer Science</t><br /> PSG College of Technology <br />
+              <i>3 Years Course</i>
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <p>
+              July 2008
+            </p>
+          </div>
 
+        </div>
+        <!-- Closing row div -->
+        <br>
+        <hr style=" border-top: 2px solid grey;">
       </div>
-      <!-- Closing row div -->
-      <br>
-      <hr style=" border-top: 2px solid grey;">
-    </div>
-    <!-- Cloing container desc div -->
+      <!-- Cloing container desc div -->
+    </section>
 
     <!--WORK Experience -->
-    <div id="work">
+    <section id="work">
       <div class="container desc">
         <div class="row">
 
@@ -148,8 +179,8 @@
         <hr style=" border-top: 2px solid grey;">
       </div>
       <!-- Closing container desc div -->
-    </div>
-    <!-- Closing work div -->
+    </section>
+
 
 
     <!-- Skills -->
@@ -252,6 +283,14 @@
       <!-- closing container div -->
     </div>
     <!-- closing footwrap div -->
+    <!-- <video width="400" controls>
+      <source src="mov_bbb.mp4" type="video/mp4">
+      <source src="mov_bbb.ogg" type="video/ogg">
+      Your browser does not support HTML video.
+    </video>
+     -->
+
+
 
     <footer id="copyrights">
       <p>
